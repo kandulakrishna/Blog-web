@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">Post 1</a></li>
+                <li><a href="#post2">Post 2</a></li>
+                <li><a href="#post3">Post 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="post1">
+            <h2>How to Get More Done with (a Lot) Less Stress: 12 Simple Habits</h2>
+            <p>Date of publication: 2024-07-01</p>
+            <img src="https://www.positivityblog.com/wp-content/uploads/get_more_done_with_less_stress.jpg" alt="Post 1 Image">
+            <p>“Three Rules of Work: Out of clutter find simplicity; From discord find harmony; In the middle of difficulty lies opportunity.”
+                <i><h4>Albert Einstein</h4></i> <br>
+                
+                “Think simple” as my old master used to say – meaning reduce the whole of its parts into the simplest terms, getting back to first principles.”
+               <i><h4>Frank Lloyd Wright</h4></i> <br>
+                
+                The daily work we do – in school, at work or in a business – can easily become overwhelming, ineffective and suck the energy and joy out of what you are doing.
+                
+                So how can you work in a lighter, simpler way that helps you to get more of what truly matters done in less time and with less stress?
+                
+                Let me share 12 habits that I’ve discovered over the years that help me to do just that.
+                
+                </p>
+            <section class="comments">
+                <h3>Comments</h3>
+                <div class="comment-section" id="comments-post1"></div>
+                <form onsubmit="addComment(event, 'post1')">
+                    <input type="text" id="name-post1" placeholder="Your name" required>
+                    <textarea id="message-post1" placeholder="Your comment" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </section>
+        </article>
+
+        <article id="post2">
+            <h2>6 Summer Tips for Unwinding, Recharging and Taking Care of Yourself</h2>
+            <p>Date of publication: 2024-07-01</p>
+            <img src="https://www.positivityblog.com/wp-content/uploads/take_care_of_yourself.webp" alt="Post 2 Image">
+            <p>“Then followed that beautiful season… Summer… Filled was the air with a dreamy and magical light; and the landscape lay as if new created in all the freshness of childhood.”
+                <i><h4>Henry Wadsworth Longfellow</h4></i>
+                
+                “The time to relax is when you don’t have time for it.”
+                <i><h4>Sydney J. Harris</h4></i>
+                
+                The summer is here.
+                
+                And for many of us it’s a time of vacations, a time of being free from school or a slow time at work or in your business.
+                
+                So it’s a good time to focus on taking extra good care of yourself to unwind, decompress and to recharge.</p>
+            <section class="comments">
+                <h3>Comments</h3>
+                <div class="comment-section" id="comments-post2"></div>
+                <form onsubmit="addComment(event, 'post2')">
+                    <input type="text" id="name-post2" placeholder="Your name" required>
+                    <textarea id="message-post2" placeholder="Your comment" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </section>
+        </article>
+
+        <article id="post3">
+            <h2>135 One Word Quotes About Love, Life, Happiness and Success</h2>
+            <p>Date of publication: 2024-07-01</p>
+            <img src="https://www.positivityblog.com/wp-content/uploads/one_word_quotes.png" alt="Post 3 Image">
+            <p>Today I’d like to keep it as short and simple as possible and share the best and most powerful one word quotes, sayings and messages.
+                <br>
+                In this post you’ll find quotes about love, about yourself and self-love, deep ones, the perfect ones for Instagram and social media and plenty more.
+                 <br>
+                
+                And if you want more quick, but slightly longer, inspirational quotes then have a look at this post with four word quotes, this one with many three word quotes and also this one filled with two word quotes.<br></p>
+            <section class="comments">
+                <h3>Comments</h3>
+                <div class="comment-section" id="comments-post3"></div>
+                <form onsubmit="addComment(event, 'post3')">
+                    <input type="text" id="name-post3" placeholder="Your name" required>
+                    <textarea id="message-post3" placeholder="Your comment" required></textarea>
+                    <button type="submit">Add Comment</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
